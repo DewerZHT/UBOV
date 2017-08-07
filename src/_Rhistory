@@ -1,0 +1,150 @@
+cwd
+pwd
+cwd()
+cwd
+getwd()
+print("Current working directory: " + getwd())
+print(paste0("Current working directory: ", getwd()))
+read.csv("Select Data On Student HW 20170427")
+read.csv("Select Data On Student HW 20170427.csv")
+read.csv("Select Student Behavior 20170518_161309.csv")
+behavior1 = read.csv("Select Student Behavior 20170518_161309.csv")
+View(behavior1)
+print(paste0("Current working directory: ", getwd()))
+homework = read.csv("Select Student HW 20170531_164953.csv")
+behavior1 = read.csv("Select Student Behavior 20170518_161309.csv")
+View(homework)
+View(behavior1)
+print(paste0("Current working directory: ", getwd()))
+homework = read.csv("Select Student HW 20170531_164953.csv")
+behavior1 = read.csv("Select Student Behavior 20170531_212813.csv")
+dim(homework)
+dim(behavior1)
+homework[homework$Homework_id == 8]
+homework[homework$Homework_id == '8']
+homework[homework$Homework_id == '8',]
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+temp1 = homework[homework$Homework_id == '8',]
+temp2 = homework[homework$Homework_id == '9',]
+temp3 = homework[homework$Homework_id == '10',]
+View(temp3)
+unique(temp3)
+temp4 = unique(temp3)
+View(temp4)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+temp8 = homework[homework$Homework_id == '8',]
+temp9 = homework[homework$Homework_id == '9',]
+temp10 = homework[homework$Homework_id == '10',]
+# remove repeat student
+temp4 = unique(temp10)
+# move specified homework into single dataframe
+temp11 = homework[homework$Homework_id == '11',]
+temp12 = homework[homework$Homework_id == '12',]
+temp13 = homework[homework$Homework_id == '13',]
+# remove repeat student
+temp5 = unique(temp13)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+temp8 = homework[homework$Homework_id == '8',]
+temp9 = homework[homework$Homework_id == '9',]
+temp10 = homework[homework$Homework_id == '10',]
+# remove repeat student
+temp4 = unique(temp10)
+# move specified homework into single dataframe
+temp11 = homework[homework$Homework_id == '11',]
+temp12 = homework[homework$Homework_id == '12',]
+temp13 = homework[homework$Homework_id == '13',]
+# remove repeat student
+temp5 = unique(temp13)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+temp14 = homework[homework$Homework_id == '14',]
+temp15 = homework[homework$Homework_id == '15',]
+temp16 = homework[homework$Homework_id == '16',]
+# remove repeat student
+temp6 = unique(temp16)
+# move specified homework into single dataframe
+temp17 = homework[homework$Homework_id == '17',]
+temp18 = homework[homework$Homework_id == '18',]
+temp19 = homework[homework$Homework_id == '19',]
+# remove repeat student
+temp7 = unique(temp19)
+print(paste0("Current working directory: ", getwd()))
+homework = read.csv("Select Student HW 20170531_164953.csv")
+behavior1 = read.csv("Select Student Behavior 20170531_212813.csv")
+dim(homework)
+dim(behavior1)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+temp8 = homework[homework$Homework_id == '8',]
+temp9 = homework[homework$Homework_id == '9',]
+temp10 = homework[homework$Homework_id == '10',]
+# remove repeat student
+temp4 = unique(temp10)
+# move specified homework into single dataframe
+temp11 = homework[homework$Homework_id == '11',]
+temp12 = homework[homework$Homework_id == '12',]
+temp13 = homework[homework$Homework_id == '13',]
+# remove repeat student
+temp5 = unique(temp13)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+temp14 = homework[homework$Homework_id == '14',]
+temp15 = homework[homework$Homework_id == '15',]
+temp16 = homework[homework$Homework_id == '16',]
+# remove repeat student
+temp6 = unique(temp16)
+# move specified homework into single dataframe
+temp17 = homework[homework$Homework_id == '17',]
+temp18 = homework[homework$Homework_id == '18',]
+temp19 = homework[homework$Homework_id == '19',]
+# remove repeat student
+temp7 = unique(temp19)
+print(paste0("Current working directory: ", getwd()))
+homework = read.csv("Select Student HW 20170531_164953.csv")
+behavior1 = read.csv("Select Student Behavior 20170531_212813.csv")
+dim(homework)
+dim(behavior1)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+HW8 = homework[homework$Homework_id == '8',]
+HW9 = homework[homework$Homework_id == '9',]
+HW10 = homework[homework$Homework_id == '10',]
+# remove repeat student
+temp4 = unique(HW10)
+# move specified homework into single dataframe
+HW11 = homework[homework$Homework_id == '11',]
+HW12 = homework[homework$Homework_id == '12',]
+HW13 = homework[homework$Homework_id == '13',]
+# remove repeat student
+temp5 = unique(HW13)
+# Note that homework 8, 9, 10, 14, 15, 16 is class A
+# 11, 12, 13, 17, 18, 19 is class B
+# move specified homework into single dataframe
+HW14 = homework[homework$Homework_id == '14',]
+HW15 = homework[homework$Homework_id == '15',]
+HW16 = homework[homework$Homework_id == '16',]
+# remove repeat student
+temp6 = unique(HW16)
+# move specified homework into single dataframe
+HW17 = homework[homework$Homework_id == '17',]
+HW18 = homework[homework$Homework_id == '18',]
+HW19 = homework[homework$Homework_id == '19',]
+# remove repeat student
+temp7 = unique(HW19)
+head(temp4)
+summary(temp4)
+head(temp5)
+summary(temp5)
+View(temp6)
+View(temp7)
+View(temp4)
+View(temp5)
